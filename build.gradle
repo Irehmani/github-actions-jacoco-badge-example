@@ -11,8 +11,8 @@ version '1.0-SNAPSHOT'
 
 mainClassName = 'com.example.helloworld.HelloWorldApplication'
  
-sourceCompatibility = 17
-targetCompatibility = 17
+sourceCompatibility = 13
+targetCompatibility = 13
 
 repositories {
     mavenCentral()
@@ -41,7 +41,7 @@ shadowJar {
 
 
 jacoco {
-    toolVersion = "0.8.9"
+    toolVersion = "0.8.11"
 
 }
 
